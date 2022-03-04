@@ -109,15 +109,12 @@
 		9882D00627D1C59A00EE6710 /* HHI Case Study */ = {
 			isa = PBXGroup;
 			children = (
+				9882D04627D2005400EE6710 /* Utilities */,
+				9882D04227D2000600EE6710 /* Home */,
+				9882D03E27D2000600EE6710 /* LockDetails */,
 				B2B0B39027D1F14000AFF3E7 /* Component */,
 				9882D00727D1C59A00EE6710 /* HHI_Case_StudyApp.swift */,
 				9882D00927D1C59B00EE6710 /* ContentView.swift */,
-				B2B0B38527D1F0E100AFF3E7 /* HomeScreen.swift */,
-				B2B0B38727D1F0E100AFF3E7 /* HomeScreenData.swift */,
-				B2B0B38627D1F0E100AFF3E7 /* HomeScreenViewModel.swift */,
-				B2B0B38927D1F0E100AFF3E7 /* LockDetailScreen.swift */,
-				B2B0B38827D1F0E100AFF3E7 /* LockDetailScreenData.swift */,
-				B2B0B38427D1F0E100AFF3E7 /* LockDetailScreenViewModel.swift */,
 				9882D00B27D1C5A500EE6710 /* Assets.xcassets */,
 				9882D01027D1C5A500EE6710 /* Info.plist */,
 				9882D00D27D1C5A500EE6710 /* Preview Content */,
@@ -149,6 +146,81 @@
 				9882D02627D1C5A600EE6710 /* Info.plist */,
 			);
 			path = "HHI Case StudyUITests";
+			sourceTree = "<group>";
+		};
+		9882D03E27D2000600EE6710 /* LockDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9882D03F27D2000600EE6710 /* ViewModel */,
+				9882D04027D2000600EE6710 /* Model */,
+				9882D04127D2000600EE6710 /* View */,
+			);
+			path = LockDetails;
+			sourceTree = "<group>";
+		};
+		9882D03F27D2000600EE6710 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0B38427D1F0E100AFF3E7 /* LockDetailScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9882D04027D2000600EE6710 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0B38827D1F0E100AFF3E7 /* LockDetailScreenData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9882D04127D2000600EE6710 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0B38927D1F0E100AFF3E7 /* LockDetailScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9882D04227D2000600EE6710 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9882D04327D2000600EE6710 /* ViewModel */,
+				9882D04427D2000600EE6710 /* Model */,
+				9882D04527D2000600EE6710 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9882D04327D2000600EE6710 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0B38727D1F0E100AFF3E7 /* HomeScreenData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9882D04427D2000600EE6710 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0B38627D1F0E100AFF3E7 /* HomeScreenViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9882D04527D2000600EE6710 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0B38527D1F0E100AFF3E7 /* HomeScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9882D04627D2005400EE6710 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		B2B0B39027D1F14000AFF3E7 /* Component */ = {
