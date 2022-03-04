@@ -13,6 +13,13 @@
 		9882D00F27D1C5A500EE6710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9882D00E27D1C5A500EE6710 /* Preview Assets.xcassets */; };
 		9882D01A27D1C5A600EE6710 /* HHI_Case_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882D01927D1C5A600EE6710 /* HHI_Case_StudyTests.swift */; };
 		9882D02527D1C5A600EE6710 /* HHI_Case_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9882D02427D1C5A600EE6710 /* HHI_Case_StudyUITests.swift */; };
+		B2B0B38A27D1F0E100AFF3E7 /* LockDetailScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0B38427D1F0E100AFF3E7 /* LockDetailScreenViewModel.swift */; };
+		B2B0B38B27D1F0E100AFF3E7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0B38527D1F0E100AFF3E7 /* HomeScreen.swift */; };
+		B2B0B38C27D1F0E100AFF3E7 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0B38627D1F0E100AFF3E7 /* HomeScreenViewModel.swift */; };
+		B2B0B38D27D1F0E100AFF3E7 /* HomeScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0B38727D1F0E100AFF3E7 /* HomeScreenData.swift */; };
+		B2B0B38E27D1F0E100AFF3E7 /* LockDetailScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0B38827D1F0E100AFF3E7 /* LockDetailScreenData.swift */; };
+		B2B0B38F27D1F0E100AFF3E7 /* LockDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0B38927D1F0E100AFF3E7 /* LockDetailScreen.swift */; };
+		B2B0B39227D1F14000AFF3E7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0B39127D1F14000AFF3E7 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		9882D02027D1C5A600EE6710 /* HHI Case StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HHI Case StudyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9882D02427D1C5A600EE6710 /* HHI_Case_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHI_Case_StudyUITests.swift; sourceTree = "<group>"; };
 		9882D02627D1C5A600EE6710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B0B38427D1F0E100AFF3E7 /* LockDetailScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockDetailScreenViewModel.swift; sourceTree = "<group>"; };
+		B2B0B38527D1F0E100AFF3E7 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B2B0B38627D1F0E100AFF3E7 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		B2B0B38727D1F0E100AFF3E7 /* HomeScreenData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenData.swift; sourceTree = "<group>"; };
+		B2B0B38827D1F0E100AFF3E7 /* LockDetailScreenData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockDetailScreenData.swift; sourceTree = "<group>"; };
+		B2B0B38927D1F0E100AFF3E7 /* LockDetailScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockDetailScreen.swift; sourceTree = "<group>"; };
+		B2B0B39127D1F14000AFF3E7 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +109,15 @@
 		9882D00627D1C59A00EE6710 /* HHI Case Study */ = {
 			isa = PBXGroup;
 			children = (
+				B2B0B39027D1F14000AFF3E7 /* Component */,
 				9882D00727D1C59A00EE6710 /* HHI_Case_StudyApp.swift */,
 				9882D00927D1C59B00EE6710 /* ContentView.swift */,
+				B2B0B38527D1F0E100AFF3E7 /* HomeScreen.swift */,
+				B2B0B38727D1F0E100AFF3E7 /* HomeScreenData.swift */,
+				B2B0B38627D1F0E100AFF3E7 /* HomeScreenViewModel.swift */,
+				B2B0B38927D1F0E100AFF3E7 /* LockDetailScreen.swift */,
+				B2B0B38827D1F0E100AFF3E7 /* LockDetailScreenData.swift */,
+				B2B0B38427D1F0E100AFF3E7 /* LockDetailScreenViewModel.swift */,
 				9882D00B27D1C5A500EE6710 /* Assets.xcassets */,
 				9882D01027D1C5A500EE6710 /* Info.plist */,
 				9882D00D27D1C5A500EE6710 /* Preview Content */,
@@ -128,6 +149,14 @@
 				9882D02627D1C5A600EE6710 /* Info.plist */,
 			);
 			path = "HHI Case StudyUITests";
+			sourceTree = "<group>";
+		};
+		B2B0B39027D1F14000AFF3E7 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0B39127D1F14000AFF3E7 /* MainView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B0B38D27D1F0E100AFF3E7 /* HomeScreenData.swift in Sources */,
+				B2B0B39227D1F14000AFF3E7 /* MainView.swift in Sources */,
+				B2B0B38B27D1F0E100AFF3E7 /* HomeScreen.swift in Sources */,
 				9882D00A27D1C59B00EE6710 /* ContentView.swift in Sources */,
 				9882D00827D1C59A00EE6710 /* HHI_Case_StudyApp.swift in Sources */,
+				B2B0B38E27D1F0E100AFF3E7 /* LockDetailScreenData.swift in Sources */,
+				B2B0B38F27D1F0E100AFF3E7 /* LockDetailScreen.swift in Sources */,
+				B2B0B38A27D1F0E100AFF3E7 /* LockDetailScreenViewModel.swift in Sources */,
+				B2B0B38C27D1F0E100AFF3E7 /* HomeScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
